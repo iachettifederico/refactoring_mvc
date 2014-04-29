@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: refactoring_mvc_development
+  pool: 5
+  username: fedex
+  password: fedex
+  min_messages: warning
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: refactoring_mvc_test
+  pool: 5
+  username: fedex
+  password: fedex
+  min_messages: warning
